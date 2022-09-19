@@ -1,0 +1,17 @@
+{
+  "name": "primertarea",
+  "version": "1.0.0",
+  "description": "Como usar Mocha JS Programacion Orientado a Pruebas ",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha || exit 0"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "Luis Armando Moran",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
