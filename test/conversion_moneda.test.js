@@ -6,7 +6,7 @@ describe("Conversion de Moneda", function () {
     let valor = 20;
 
     let total = money_convert_division(monto, valor);
-    assert.equal(100, total);
+    assert.equal(5, total);
   });
 
   it("Dolares a Pesos", function () {
@@ -14,7 +14,7 @@ describe("Conversion de Moneda", function () {
     let valor = 20;
  
     let total = money_convert_x(monto, valor);
-    assert.equal(5, total); 
+    assert.equal(100, total); 
   });
 });
 
